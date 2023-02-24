@@ -1,0 +1,71 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #242424;
+}
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+app {
+	margin: 0;
+}
+
+button {
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 0.8em 1.2em;
+	font-size: 1em;
+	background-color: #1a1a1a;
+	cursor: pointer;
+	transition: border-color 0.25s;
+}
+button:hover {
+	border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+	outline: 4px auto -webkit-focus-ring-color;
+}
+
+.home {
+	text-align: center;
+}
+
+.signin {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.signin button {
+	margin: 5px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+	background: #3d3c3c;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.account {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.account h2 {
+	margin-bottom: 20px;
+}
+
+.account button {
+	margin-top: 20px;
+}
